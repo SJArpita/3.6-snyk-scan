@@ -61,7 +61,7 @@ jobs:
   Also, enable:
   outputs:
     status: ${{ job.status }}
-  for use in the summary
+  # for use in the summary
   #######################################
 
   #################################################
