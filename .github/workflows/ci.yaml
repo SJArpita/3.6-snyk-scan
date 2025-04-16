@@ -48,7 +48,7 @@ jobs:
       run: tflint -f compact
 
   #######################################
-  Add a job for snyk scan of your code #
+  # Add a job for snyk scan of your code #
   #######################################
 
   #######################################
