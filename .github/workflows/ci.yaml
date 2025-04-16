@@ -57,8 +57,8 @@ jobs:
   - snyk code test
   - snyk test
   - snyk iac test
-  - snyk container test <image-name>
-  Also, enable:
+  # - snyk container test <image-name>
+  # Also,   enable:
   outputs:
     status: ${{ job.status }}
   # for use in the summary
