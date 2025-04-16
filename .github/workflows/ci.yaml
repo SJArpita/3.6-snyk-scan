@@ -48,9 +48,10 @@ jobs:
       run: tflint -f compact
 
   name: Snyk Infrastructure as Code
-on: push
+on: 
+  push:
 jobs:
-  snyk:
+  snyk-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
