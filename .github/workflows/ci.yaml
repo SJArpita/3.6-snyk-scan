@@ -48,6 +48,8 @@ jobs:
       run: tflint -f compact
 
   snyk-check:
+on:
+  push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
