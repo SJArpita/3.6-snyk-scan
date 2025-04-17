@@ -47,8 +47,6 @@ jobs:
     - name: Run TFLint
       run: tflint -f compact
 
-  name: Snyk Infrastructure as Code
-
   snyk-check:
     runs-on: ubuntu-latest
     steps:
